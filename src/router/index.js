@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import CardComp from '../components/CardComp.vue'
 import FriendsView from '@/views/FriendsView.vue'
 import ConsolesView from '@/views/ConsolesView.vue'
 import CarsView from '@/views/CarsView.vue'
@@ -12,22 +11,17 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/',
-    name: 'CardComp',
-    component: CardComp
-  },
-  {
-    path: '/',
+    path: '/friends',
     name: 'Friends',
     component: FriendsView
   },
   {
-    path: '/',
+    path: '/consoles',
     name: 'Console',
     component: ConsolesView
   },
   {
-    path: '/',
+    path: '/cars',
     name: 'Cars',
     component: CarsView
   },

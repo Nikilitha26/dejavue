@@ -1,6 +1,6 @@
-<template lang="">
+<template>
     <div>
-        <div class="card">
+      <div class="card">
     <slot name="car-info"></slot>
     <slot name="console-info"></slot>
   </div>
